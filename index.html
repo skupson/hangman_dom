@@ -6,5 +6,29 @@
     <title>Hangman DOM Game</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Hangman</h1>
+    <p>Find th hidden word - Enter a letter</p>
+    <div class="game-container">
+      <!-- Rod -->
+      <svg class="figure-container" height="250" width="200">
+        <line x1="60" y1="20" x2="60" y2="230" />
+        <line x1="60" y1="20" x2="140" y2="20" />
+        <line x1="140" y1="20" x2="140" y2="50" />
+        <line x1="30" y1="230" x2="90" y2="230" />
+        <!-- Head -->
+        <circle class="figure-part" cx="140" cy="70" r="20" />
+        <!-- Body -->
+        <line class="figure-part" s x1="140" y1="90" x2="140" y2="160" />
+        <!-- Left Arm -->
+        <line class="figure-part" x1="140" y1="90" x2="170" y2="130" />
+        <!-- Right Arm -->
+        <line class="figure-part" x1="140" y1="90" x2="110" y2="130" />
+        <!-- Left Leg -->
+        <line class="figure-part" x1="140" y1="160" x2="160" y2="200" />
+        <!-- Right Leg -->
+        <line class="figure-part" x1="140" y1="160" x2="120" y2="200" />
+      </svg>
+    </div>
+  </body>
 </html>
