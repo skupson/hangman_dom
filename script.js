@@ -11,7 +11,7 @@ const words = ["wizard", "interface", "dungeon", "dragons"];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
-const correctLetters = ["w", "i", "z", "a", "r", "d"];
+const correctLetters = [];
 
 const wrongLetters = [];
 
